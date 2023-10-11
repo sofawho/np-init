@@ -29,7 +29,7 @@
 
 
 
-> Easily start a npm package from scratch.
+> Easily start a npm package from Scratch.
 
 
 
@@ -140,7 +140,7 @@ Inits a new `npm` package.
 - **Function** `callback`: The callback function.
 
 #### Return
-- **EventEmitter** An event emitter emitting the following events:
+- **EventEmitter** An Event Emitter emitting the following events:
  - `repo_created` (data): After the repository was created.
  - `package_written` (data): After the package.json was written.
  - `packy_done` (data): After the defaults in `package.json` were set. Note you can do this using [`packy`](https://github.com/IonicaBizau/packy).
